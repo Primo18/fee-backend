@@ -1,0 +1,25 @@
+{
+  "name": "gymapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js ",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch-path=./src --env-file=.env src/app.js",
+    "start": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@libsql/client": "^0.6.0",
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0"
+  }
+}
