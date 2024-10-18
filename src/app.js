@@ -44,7 +44,7 @@ initPassport();
 
 // Routes
 app.get('/', (req, res) => {
-    res.send('Backend para la app de Gimnasio 💪😁👍');
+    res.send('Backend para la app de FEE 💪😁👍');
 });
 app.use('/auth', authRoutes);
 app.use('/api/usuarios', usuarioRoutes);
