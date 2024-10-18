@@ -1,4 +1,4 @@
-# Proyecto_IS2 Backend
+# Feria Emprendimiento Estudiantil - Backend
 
 ## Tecnologías utilizadas
 - Node.js
@@ -9,7 +9,7 @@
 
 1. Clonar el repositorio
 ```bash
-git clone https://github.com/jansorena/project-IS2-backend.git
+git clone https://github.com/Primo18/fee-backend.git
 ```
 2. Instalar las dependencias
 ```bash
